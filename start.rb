@@ -1,4 +1,5 @@
 require_relative 'near_earth_objects'
+# require_relative 'nasa_api_service'
 
 puts "________________________________________________________________________________________________________________________________"
 puts "Welcome to NEO. Here you will find information about how many meteors, astroids, comets pass by the earth every day. \nEnter a date below to get a list of the objects that have passed by the earth on that day."
