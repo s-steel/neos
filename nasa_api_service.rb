@@ -5,7 +5,6 @@ class NasaApiService
             url: 'https://api.nasa.gov',
             params: { start_date: date, api_key: ENV['nasa_api_key']}
             )
-            
         asteroids_list_data = conn.get('/neo/rest/v1/feed')
 
         parse_data(asteroids_list_data, date)
